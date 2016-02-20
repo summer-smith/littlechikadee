@@ -1,0 +1,6 @@
+# disable directory listing - keeps site visitors from 
+# seeing the contents of a folder if a default page 
+# is not provided in the folder
+Options -Indexes
+ErrorDocument 404 http://littlechikadee.com/public_html/404page.html
+ErrorDocument 404 /public_html/public_html/404page.html

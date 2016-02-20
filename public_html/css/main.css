@@ -1,0 +1,67 @@
+/* 
+    Created on : Jan 7, 2016, 9:17:08 PM
+    Author     : Summer
+*/
+.center{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align:center;
+}
+
+.content {
+    border-top:1px solid;
+    text-align: left;
+    margin-left:30%;
+    margin-right:30%;
+}
+
+
+/* Header and Footer formatting */
+.naver {
+    color: grey;
+    font-family: "Arial";
+    padding-top:16px;
+padding-bottom:16px;
+margin-left:2px;
+font: 12px Arial;
+list-style-type: none;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+}
+
+.naver a {
+  display: inline;
+border-bottom: none;
+border-top:none;
+text-decoration: none;
+padding: 11px;
+margin-right: -3px;
+color: black;  
+text-transform: uppercase;
+}
+
+.footer {
+    color: grey;
+    font-family: "Arial";
+    padding-top:16px;
+    padding-bottom:16px;
+    margin-left:2px;
+    font: 12px Arial;
+    list-style-type: none;
+    text-align: center; /*set to left, center, or right to align the menu as desired*/
+    clear:all;
+}
+
+.footer a {
+    display: inline;
+    border-bottom: none;
+    border-top:none;
+    text-decoration: none;
+    padding: 11px;
+    margin-right: -3px;
+    color: black;  
+    text-transform: uppercase;
+}
+

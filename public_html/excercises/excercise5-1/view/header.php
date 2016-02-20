@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<!-- the head section -->
+<head>
+    <title>My Guitar Shop</title>
+    <link rel="stylesheet" type="text/css"
+          href="/public_html/excercises/excercise5-1/main.css" >
+   <link rel="stylesheet" type="text/css" href="../public_html/css/main.css" />    
+</head>
+
+<!-- the body section -->
+<body>
+<header><h1>My Guitar Shop</h1></header>
