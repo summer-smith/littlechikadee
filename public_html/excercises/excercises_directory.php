@@ -30,27 +30,27 @@
                         <li><a href="/excercises/excercise5-1/" title="Excercise 5-1 link">5-1 - complete</a></li>
                         <li><a href="/excercises/excercise6-1/" title="Excercise 6-1 link">6-1 - complete</a></li>
                         <li>6-2 - complete</li>
-                            <li>7-2</li>
-                            <li>8-2</li>
-                            <li>11-1</li>
+                        <li><a href="/excercises/excercise7-2/" title="Excercise 7-2 link">7-2 - complete</a></li>
+                        <li><a href="/excercises/excercise8-2/" title="Excercise 8-2 link">8-2 - complete</a></li>
+                        <li><a href="/excercises/excercise11-1/" title="Excercise 11-1 link">11-1 - complete</a></li>
                             <li>13-1</li>
                             <li>12-2</li>
                             <li>15-1</li>
                     </ul>
                 <h2>Enhancements</h2>
                     <ul>
-                        <li><a href="/excercises/enhancement2/" title="Excercise 2-1 link">2 - complete</a></li>
-                        <li><a href="/excercises/enhancement4/" title="enhancement 4-1 link">4 - complete</a></li>
-                        <li><a href="/excercises/enhancement5/" title="enhancement 5-1 link">5 - complete</a></li>
-                            <li>7-2</li>
-                            <li>11-1</li>
+                        <li><a href="/excercises/enhancement2/" title="Enhancement 2 link">2 - complete</a></li>
+                        <li><a href="/excercises/enhancement4/" title="enhancement 4 link">4 - complete</a></li>
+                        <li><a href="/excercises/enhancement5/" title="enhancement 5 link">5 - complete</a></li>
+                        <li><a href="/excercises/enhancement7/" title="enhancement 7 link">7 - complete</a></li>
+                        <li><a href="/excercises/enhancement11/" title="enhancement 11 link">11 - in progress</a></li>
                             <li>13-2</li>
                             <li>12-2</li>
                     </ul>
             </div>
         </div>
         
-            <footer>
+    <footer>
         <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/footer.php'; ?>  
     </footer>  
     </body>

@@ -1,7 +1,20 @@
 <?php
-// Register the product and associate it with the customer
-// Check the registrations table to see what data is expected
 function add_registration($customer_id, $product_code) {
+    global $db;
+    $query = 'INSERT INTO registrations
+                (customerID, productCode, registrationDate)
+            VALUES
+                (:customer_id, :product_code, CURDATE() )';
+    $statement = $db->prepare($query);
+    $statement->bindValue(':customer_id', $customer_id);
+    $statement->bindValue(':product_code', $product_code);
+    $statement->execute();
+    $statement->closeCursor();
     
+    //Popup alert for debuggin purposes
+    //$message = "Finished with database query";
+    //echo "<script type='text/javascript'>alert('$message');</script>";
+    $message = "Product (".$product_code.") was registered successfully.";
+    return $message;
 }
 ?>

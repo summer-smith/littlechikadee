@@ -64,13 +64,13 @@ if ($action == 'list_products') {
         include('../errors/error.php');
     } else {
         add_category($name);
-        header('Location: .?action=list_products');  // display the Category List page
+        header('Location: .?action=list_categories');  // display the Category List page
     }
 } else if ($action == 'delete_category') {
     $category_id = filter_input(INPUT_POST, 'category_id', 
             FILTER_VALIDATE_INT);
     delete_category($category_id);
-    header('Location: .?action=list_products');      // display the Category List page
+    header('Location: .?action=list_categories');      // display the Category List page
 } else if ($action == 'edit_product') {
     $product_id = filter_input(INPUT_POST, 'product_id', FILTER_VALIDATE_INT);
     $category_ID = filter_input(INPUT_POST, 'category_ID', FILTER_VALIDATE_INT);

@@ -89,7 +89,7 @@ a:hover {
 }
 
 table {
-    border: 1px solid #001963;
+    border: none;
     border-collapse: collapse;
 }
 td, th {

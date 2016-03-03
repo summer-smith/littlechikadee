@@ -9,5 +9,8 @@ function get_customer_by_email($email) {
     $customer = $statement->fetch();
     $statement->closeCursor();
     
+    //Verify quiry obtained data
+    //$name = $customer['firstName'];
+    //echo "<script type='text/javascript'>alert('$email' + '$name');</script>";
     return $customer;    
 }
