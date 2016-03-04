@@ -4,7 +4,7 @@
     <h2>Login</h2>
     <!-- login form -->
     <form action="index.php" method="post" id="log_in_form">
-        <input type="hidden" name="action" value="log_in">
+        <input type="hidden" name="action" value="loginSubmit">
         
         <label>Email:</label>
         <input type="text" value="user@gmail.com" name="email" />
