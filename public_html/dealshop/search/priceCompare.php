@@ -1,11 +1,10 @@
 <?php include '../view/header.php'; ?>
 <main>
+
     <h2>Price Compare</h2>
-    <p style="font-style: italic">Select an item to price-compare</p>
- 
-        
+    <h1><?php echo $compareItem['itemName'];?></h1>
     <!-- List all items in database matching search requirements-->
-     
+     <form action="." method="post">
          
         <table class='itemList'>
             <tr class="divide">
@@ -16,8 +15,7 @@
                 <th></th>
             </tr>
             <?php foreach ($items as $item) : ?>
-            <form action="." method="post">
-            <input type="hidden" name="itemID" value="<?php echo $item['itemID'];?>"
+            <input type="hidden" name="itemID" value="<?php echo $item['itemID'];?>" >
             <tr>
                 <td></td>
                 <td></td>
@@ -43,7 +41,7 @@
                     <?php echo $item['store']; ?>
                 </td>
                 <td>
-                    <button type="submit" class="bttn" name="action" value="Price Compare" >Price Compare</button>
+                    <button type="submit" class="bttn" name="action" value="Add to List" >Add to List</button>
                 </td>
             </tr>
             <tr class="divide">
@@ -52,11 +50,17 @@
                 <td></td>
                 <td></td>
                 <td>
-                    <button type="submit" class="bttn" name="action" value="Add to List" >Add to List</button>
+                  
                 </td>
             </tr>
-            </form>
             <?php endforeach; ?>
         </table>
+     </form>
+    <br><br>
+    <form>
+        <input type="hidden" name="newPriceItemID" value="<?php echo $compareItemID;?>" >
+        <button type="submit" class="link" name="action" value="Add Price Form" >Add New Price</button>  
+    </form>
+
 </main>
 <?php include '../view/footer.php'; ?>

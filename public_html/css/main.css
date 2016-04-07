@@ -42,6 +42,12 @@ color: black;
 text-transform: uppercase;
 }
 
+.naver a:hover {
+    background-color: #f6e6e6;
+    text-decoration:none; 
+    color: black;
+}
+
 .footer {
     color: grey;
     font-family: "Arial";
@@ -64,8 +70,21 @@ text-transform: uppercase;
     color: black;  
     text-transform: uppercase;
 }
-
+.footer a:hover {
+    background-color: #f6e6e6;
+    color: black;
+    text-decoration:none;   
+}
 .table clear {
     border: 1px solid #001963;
     border-collapse: collapse;
+}
+
+a {
+    color:#f2b4a3;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#96a095;
 }

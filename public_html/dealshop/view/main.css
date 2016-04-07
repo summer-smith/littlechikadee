@@ -1,9 +1,20 @@
 /* 
     Created on : Jan 7, 2016, 9:17:08 PM
     Author     : Summer
+    Color themes:
+        Light pink      #f6e6e6
+        Dark pink       #f2b4a3
+        Dark teal       #36393f
+        Medeium teal    #5d6a6a
+        Light teal      #96a095
+        Neutral         #e1e4ca
 */
 
-
+.center{
+    margin: auto;
+    padding: 10px;
+    text-align:center;
+}
 .content {
     border-top:1px solid;
     text-align: left;
@@ -17,12 +28,12 @@
     color: grey;
     font-family: "Arial";
     padding-top:16px;
-padding-bottom:16px;
-margin-left:2px;
-font: 12px Arial;
-list-style-type: none;
-border-bottom: 1px solid #f2b4a3;
-text-align: center; /*set to left, center, or right to align the menu as desired*/
+    padding-bottom:16px;
+    margin-left:2px;
+    font: 12px Arial;
+    list-style-type: none;
+    border-bottom: 1px solid #f2b4a3;
+    text-align: center; /*set to left, center, or right to align the menu as desired*/
 }
 
 .naver a {
@@ -32,14 +43,14 @@ border-top:none;
 text-decoration: none;
 padding: 11px;
 margin-right: -3px;
-color: #36393f;  
+color: #96a095;  
 text-transform: uppercase;
 }
 
 .naver a:hover {
     background-color: #f6e6e6;
     text-decoration:none;    
-    color: #36393f;  
+    color: #96a095;  
 }
 
 .footer {
@@ -68,9 +79,80 @@ text-transform: uppercase;
 .footer a:hover {
     background-color: #f6e6e6;
     color: #36393f;  
-    text-decoration:none;    
+    text-decoration:none;   
+    text-transform: lowercase;
 }
 
+button.bttn {
+    border-radius: 25px;
+    background-color: #f2b4a3;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.bttn:hover{
+    background-color:#5d6a6a;
+}
+
+button.bttn2 {
+    border-radius: 25px;
+    background-color: #f2b4a3;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.bttn2:hover{
+    background-color:#f6e6e6;
+}
+
+button.link {
+    background-color: #96a095;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 35%;
+    cursor: pointer;
+}
+
+button.link:hover{
+    background-color: #5d6a6a; 
+}
+
+table button{
+    background-color:white;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    color:#5d6a6a;
+}
+
+button.bttn3{
+  background-color:white;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
+    color:#5d6a6a;  
+}
+
+table button:hover{
+    color:white;
+    background-color:#96a095;
+}
 .table clear {
     border: 1px solid #001963;
     border-collapse: collapse;
@@ -81,13 +163,14 @@ html {
     margin-top: 5%;
 }
 body {
+    font-family: "Times New Roman", Times, serif;
     text-align: center;
     margin-top: 5%;
     width: 760px;
     margin: 0 auto;
     background-color: white;
-    border: 1px solid #f6e6e6;
-    color:#36393f;
+    border: 2px solid #96a095;
+    color:#5d6a6a;
 }
 header {
     margin: 0;
@@ -95,7 +178,7 @@ header {
 }
 header h1 {
     text-align:center;
-    color: #36393f;
+    color: #5d6a6a;
     margin: 0;
     padding: 0;
 }
@@ -121,14 +204,14 @@ footer p {
 }
 
 h1 {
-    color: #36393f;
+    color: #5d6a6a;
     font-size: 150%;
     margin: 0;
     padding: .5em 0 .25em;
 }
 h2 {
     font-size: 120%;
-    color:  #36393f;
+    color:  #5d6a6a;
     margin: 0;
     padding: .25em 0 .25em ;
 }
@@ -143,10 +226,15 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+
+
+
 li {
     margin: 0;
     padding: 0;
+    display: inline;
 }
+
 
 
 a {
@@ -214,4 +302,32 @@ textarea {
 #aligned .message {
     margin-left: .5em;
     width: 15em;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+form.userIn{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    text-align: left;
+}
+
+table.itemList{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+tr.divide {
+    border-bottom: 1px solid #e1e4ca;
+}
+
+th, td{
+    border: none;
+    text-align: left;
 }

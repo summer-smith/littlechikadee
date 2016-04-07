@@ -33,9 +33,9 @@
                         <li><a href="/excercises/excercise7-2/" title="Excercise 7-2 link">7-2 - complete</a></li>
                         <li><a href="/excercises/excercise8-2/" title="Excercise 8-2 link">8-2 - complete</a></li>
                         <li><a href="/excercises/excercise11-1/" title="Excercise 11-1 link">11-1 - complete</a></li>
-                            <li>13-1</li>
-                            <li>12-2</li>
-                            <li>15-1</li>
+                        <li><a href="/excercises/excercise13-1/" title="Excercise 13-1 link">13-1 - complete</a></li>
+                        <li><a href="/excercises/excercise12-2/" title="Excercise 12-2 link">12-2 - complete</a></li>
+                        <li><a href="/excercises/excercise15-2/" title="Excercise 15-2 link">15-2 - complete</a></li>
                     </ul>
                 <h2>Enhancements</h2>
                     <ul>
@@ -43,9 +43,9 @@
                         <li><a href="/excercises/enhancement4/" title="enhancement 4 link">4 - complete</a></li>
                         <li><a href="/excercises/enhancement5/" title="enhancement 5 link">5 - complete</a></li>
                         <li><a href="/excercises/enhancement7/" title="enhancement 7 link">7 - complete</a></li>
-                        <li><a href="/excercises/enhancement11/" title="enhancement 11 link">11 - in progress</a></li>
-                            <li>13-2</li>
-                            <li>12-2</li>
+                        <li><a href="/excercises/enhancement11/" title="enhancement 11 link">11 - complete</a></li>
+                        <li><a href="/excercises/enhancement13/" title="enhancement 13 link">13 - complete</a></li>
+                        <li><a href="/excercises/enhancement12/" title="enhancement 12 link">12 - complete</a></li>
                     </ul>
             </div>
         </div>

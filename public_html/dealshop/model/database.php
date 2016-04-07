@@ -1,6 +1,6 @@
 <?php
 //TODO:update connection info
-    $dsn = 'mysql:host=localhost;dbname=ittlech8_tech_support';
+    $dsn = 'mysql:host=localhost;dbname=ittlech8_dealshop';
     $username = 'ittlech8_iClient';
     $password = 'BucKet22#';
 
@@ -8,6 +8,6 @@
         $db = new PDO($dsn, $username, $password);
     } catch (PDOException $e) {
         $error_message = $e->getMessage();
-        include('../errors/database_error.php');
+        include('../model/databaseError.php');
         exit();
     }
